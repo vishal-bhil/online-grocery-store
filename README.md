@@ -1,23 +1,14 @@
 # React Native Grocery Store UI Template
 
-# React Native Boilerplate
-
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](#badge)
-[![code style equimper](https://img.shields.io/badge/code%20style-equimper-blue.svg?style=flat-square)](https://github.com/EQuimper/eslint-config-equimper)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-> A React Native boilerplate with Expo, React Navigation, and some 💕 included.
+> A React Native UI template with Expo, React Navigation, and some 💕 included.
 
 <img alt="React Native Boilerplate" src="screenshot/all.jpeg">
-
-## Demo
-
-- Run with Expo: [React Native Boilerplate]
 
 ## Technologies
 - [React Native (Expo)](https://docs.expo.io/versions/v18.0.0/index.html)
 - [React Navigation](https://reactnavigation.org/)
-- [ESLint](https://github.com/eslint/eslint) & [Prettier](https://github.com/prettier/prettier)
 
 ## Getting Started
 Clone this repository
