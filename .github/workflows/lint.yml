@@ -1,0 +1,15 @@
+name: Lint
+
+on: { push: { paths: ["**.js", ".github/workflows/**", "!**.md"] } }
+
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with: { node-version: "16" }
+      - run: npm install
+      - uses: wearerequired/lint-action@v1
+        with: { eslint: true, prettier: true }
