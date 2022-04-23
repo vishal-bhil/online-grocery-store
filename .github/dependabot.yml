@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    open-pull-requests-limit: 10
+    directory: '/'
+    schedule:
+      timezone: "Asia/Kolkata"
+      interval: 'daily'
+    labels:
+      - ":robot: bot"
+  - package-ecosystem: "github-actions"
+    open-pull-requests-limit: 10
+    directory: "/"
+    schedule:
+      interval: "daily"
+      timezone: "Asia/Kolkata"
+    labels:
+      - ":robot: bot"
