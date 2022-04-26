@@ -11,5 +11,5 @@ jobs:
       - uses: actions/setup-node@v3
         with: { node-version: "16" }
       - run: npm install
-      - uses: wearerequired/lint-action@v1
+      - uses: wearerequired/lint-action@v2
         with: { eslint: true, prettier: true }
